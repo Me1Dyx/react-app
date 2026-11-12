@@ -1,0 +1,390 @@
+body {
+  background-color: #404040;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Montserrat', sans-serif
+}
+
+h1, h2, h3, p, li, input {
+  color: #ffffff;
+}
+
+.Header {
+  background-color: #2a2a2a;
+  width: 100%;
+  padding: 12px 24px;
+  margin: 0;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-title {
+  font-size: 34px;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.Header-button {
+  background-color: #8127a2;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.Footer {
+  background-color: #2a2a2a;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.Footer-title {
+  font-size: 34px;
+  margin: 5px;
+}
+
+.Footer-text {
+  font-size: 16px;
+  margin: 5px;
+}
+
+.Footer-button {
+  font-size: 20px;
+  color: #e9e8e8;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.MainText {
+  font-size: 22px;
+  text-align: center;
+  margin: 20px;
+}
+
+.MainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.MainList1 {
+  font-size: 20px;
+  text-align: left;
+  margin: 20px;
+  flex: 1;
+}
+
+.MainList2 {
+  font-size: 20px;
+  text-align: right;
+  margin: 20px;
+  flex: 1;
+}
+
+.MainTarify {
+  font-size: 20px;
+  text-align: left;
+  flex: 1;
+}
+
+.MainContainer2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-direction: row-reverse;
+}
+
+.SignupComponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+}
+
+.SignupContainer {
+  background-color: #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 8px;
+  width: 40%;
+  gap: 15px;
+  text-align: center;
+}
+
+.SignupTitle {
+  font-size: 48px;
+  margin: 0px;
+}
+
+.SignupInput {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background-color: #333;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.SignupSubmit {
+  width: 100%;
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #8127a2;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 15px;
+}
+
+.SignupSubmit:hover {
+  background-color: #9c30c4;
+}
+
+.regProblem {
+  color: rgb(255, 0, 0);
+}
+.reg-button {
+  color: #b060cc;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.reg-button:hover {
+  text-decoration: underline;
+}
+
+.account-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.account-text {
+  color: #b060cc;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.errorComponent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.errorBrum {
+  font-size: 80px;
+  margin: 0 auto;
+}
+
+.errorText {
+  font-size: 25px;
+}
+
+.errorBack {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.requestsComponent {
+  width: 100%;
+  min-height: 600px;
+  height: auto;
+  display: flex;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+.createRequestMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #303030;
+  width: 23%;
+  height: 280px;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 15px;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+
+.requestForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.requestInput {
+  background-color: #1b1b1b;
+  border: none;
+  color: #ffffff;
+  height: 35px;
+  width: 88%;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.natureSelect {
+  background-color: #1b1b1b;
+  border: none;
+  color: #ffffff;
+  height: 35px;
+  width: 88%;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.requestSubmit {
+  width: 75%;
+  padding: 12px 18px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #8127a2;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 13px;
+}
+
+.requestsList, .adminRequestsList {
+  background-color: #323232;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 71%;
+  min-height: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  box-sizing: border-box;
+  overflow: visible;
+  border-radius: 10px;
+}
+
+.adminRequestsList {
+  width: 95%;
+}
+
+.requestElem {
+  background-color: #252525;
+  height: 50px;
+  width: 98%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.requestDetailPage {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  flex-direction: column;
+  background-color: #2a2a2a;
+  min-height: 600px;
+  height: 100%;
+  width: 98%;
+  padding: 20px; 
+  box-sizing: border-box;
+  border-radius: 8px;
+  gap: 15px;
+}
+
+.requestDetailName, .requestDetailDesc, .requestDetailNature, .requestDetailStatus, .requestDetailAuthor {
+  background-color: #212121;
+  padding: 14px 16px;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.requestDetailDate {
+  background-color: #212121;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 18px;
+  margin: 0;
+}
+
+.requestDetailStatus {
+  margin-top: auto;
+  justify-content: space-between;
+  display: flex;
+  padding: 14px 16px;
+}
+
+.requestDetailStatusChanger {
+  background-color: #7a2599;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.requestRight {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
